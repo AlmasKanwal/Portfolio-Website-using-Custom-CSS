@@ -10,7 +10,7 @@ export default function Services() {
         {/* top div */}
         <div className="top-div-service">
           <h1 className="header-text">My Services</h1>
-          <p className="header-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus sequi, eaque voluptates iste maxime. Cupiditate eius, odio voluptatem veritatis harum assumenda veniam minima tenetur.</p>
+          <p className="header-para">I bring skills in Video Editing, Graphic Designing,2D Animation and manage my YouTube Channel, "Chamakte Sitare", where I handle video editing, thumbnails, and channel management. I am excited to develop further as a web developer and make meaningful contributions to my field.</p>
         </div>
 
         {/* bottom div */}
@@ -18,20 +18,20 @@ export default function Services() {
           
             <div className="box">
           <FaLaptop className="service-icon"/>
-          <h3>Web Development</h3>
-          <a href="https://github.com/AlmasKanwal" target="blank" style={{color: '#080808'}}>My Projects</a>
+          <h2><b>Web Development</b></h2>
+          <a href="https://github.com/AlmasKanwal" target="blank" style={{color: '#fff'}}><b>View My Projects</b></a>
             </div>
 
             <div className="box">
           <FaYoutube className="service-icon"/>
-          <h3>My YouTube Channel</h3>
-          <a href="https://www.youtube.com/channel/UCu2rw6nY5yFxZzNzJVDW81Q" target="blank" style={{color: '#080808'}}>Chamakte Sitare</a>
+          <h2><b>My YouTube Channel</b></h2>
+          <a href="https://www.youtube.com/channel/UCu2rw6nY5yFxZzNzJVDW81Q" target="blank" style={{color: '#fff'}}><b>Visit Channel</b></a>
             </div>
 
             <div className="box">
           <FaLaptop className="service-icon"/>
-          <h3>2D Animation</h3>
-          <video src="/2d-animation-video.mp4" controls>Demo</video>
+          <h2><b>2D Animation</b></h2>
+          <a href="/2d-animation-video.mp4" target="blank" style={{color: '#fff'}}><b>Demo Video</b></a>
             </div>
             
         </div>
