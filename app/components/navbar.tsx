@@ -12,10 +12,10 @@ export default function NavBar() {
  {/* NavBar Menu */}
   <div className="navbar-menu">
   <ul className="navbar-links">
-    <li><Link href="/" className="link">Home</Link></li>
-    <li><Link href="/about" className="link">About</Link></li>
-    <li><Link href="/services" className="link">Services</Link></li>
-    <li><Link href="/contact" className="link">Contact</Link></li>
+    <li><Link href="/">Home</Link></li>
+    <li><Link href="/about">About</Link></li>
+    <li><Link href="/services">Services</Link></li>
+    <li><Link href="/contact">Contact</Link></li>
   </ul>
   </div>
 
