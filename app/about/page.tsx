@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FaYoutube } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
@@ -7,7 +8,7 @@ export default function About() {
       <div className="hero">
         {/* Left Section */}
         <div className="hero-left-div">
-          <img src="/profile-1.jpg" alt="profile" className="hero-image" />
+          <Image src="/profile-1.jpg" alt="profile"  width={220} height={220} className="hero-image" />
 
           <div className="social-icons">
             <a
@@ -41,7 +42,7 @@ export default function About() {
             coursework in Artificial Intelligence, Web 3.0, and Metaverse
             development at Governor House Karachi. I bring skills in Video
             Editing, Graphic Designing, 2D Animation, and manage my YouTube
-            Channel, "Chamakte Sitare", where I handle video editing,
+            Channel, &quot;Chamakte Sitare&quot;, where I handle video editing,
             thumbnails, and channel management. I am excited to develop further
             as a web developer and make meaningful contributions to my field.
           </p>

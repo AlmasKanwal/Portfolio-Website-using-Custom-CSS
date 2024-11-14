@@ -1,10 +1,12 @@
+import Image from 'next/image';
+
 export default function HomeSection() {
     return (
       <div className="hero-section">
         <div className="hero">
           {/* left */}
           <div>
-            <img src="/profile.jpg" alt="profile" className="hero-image"/>
+            <Image src="/profile.jpg" alt="profile" width={220} height={220} className="hero-image"/>
           </div>
   
   {/* right */}

@@ -73,8 +73,6 @@ body {
 .hero-image {
   border: 8px solid #b9496f;
   border-radius: 50%;
-  width: 220px;
-  height: 220px;
   animation: slideIn 1.2s ease-in-out;
 }
 

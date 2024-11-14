@@ -1,7 +1,5 @@
 import { FaLaptop } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import { SiMicrosoftword } from "react-icons/si";
-
 
 export default function Services() {
   return (
@@ -10,7 +8,7 @@ export default function Services() {
         {/* top div */}
         <div className="top-div-service">
           <h1 className="header-text">My Services</h1>
-          <p className="header-para">I bring skills in Video Editing, Graphic Designing,2D Animation and manage my YouTube Channel, "Chamakte Sitare", where I handle video editing, thumbnails, and channel management. I am excited to develop further as a web developer and make meaningful contributions to my field.</p>
+          <p className="header-para">I bring skills in Video Editing, Graphic Designing,2D Animation and manage my YouTube Channel &quot;Chamakte Sitare&quot;, where I handle video editing, thumbnails, and channel management. I am excited to develop further as a web developer and make meaningful contributions to my field.</p>
         </div>
 
         {/* bottom div */}

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link'
 
 export default function NavBar() {
@@ -6,7 +7,7 @@ export default function NavBar() {
 
         {/* Logo */}
  <div>
-  <img src="/logo.png" alt="logo" className='logo'/>
+  <Image src="/logo.png" alt="logo" className='logo'/>
   </div>
  
  {/* NavBar Menu */}
